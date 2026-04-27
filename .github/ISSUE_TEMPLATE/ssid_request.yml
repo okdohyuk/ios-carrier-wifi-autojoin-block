@@ -1,0 +1,19 @@
+name: SSID request
+description: Request adding or changing a carrier-managed SSID.
+title: "ssid: "
+labels: [enhancement, ssid]
+body:
+  - type: input
+    id: ssid
+    attributes:
+      label: SSID
+      placeholder: e.g. KT WiFi
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to official docs, screenshots, or reliable public references.
+    validations:
+      required: true

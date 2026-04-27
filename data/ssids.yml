@@ -1,0 +1,34 @@
+version: 1
+organization: OpenClaw
+profile:
+  identifier: ai.openclaw.wifi.korean-carrier-autojoin-block
+  display_name: Korean Carrier Wi-Fi Auto-Join Block
+  description: Disables auto-join for common Korean carrier-managed Wi-Fi SSIDs on iPhone.
+networks:
+  - ssid: KTWiFi
+    display_name: KTWiFi
+    identifier_suffix: ktwifi
+  - ssid: KT WiFi
+    display_name: KT WiFi
+    identifier_suffix: kt-wifi
+  - ssid: KT GiGA WiFi
+    display_name: KT GiGA WiFi
+    identifier_suffix: kt-giga-wifi
+  - ssid: ollehWiFi
+    display_name: ollehWiFi
+    identifier_suffix: ollehwifi
+  - ssid: T wifi zone
+    display_name: T wifi zone
+    identifier_suffix: t-wifi-zone
+  - ssid: T wifi zone_secure
+    display_name: T wifi zone_secure
+    identifier_suffix: t-wifi-zone-secure
+  - ssid: U+zone
+    display_name: U+zone
+    identifier_suffix: uplus-zone
+  - ssid: U+zone_5G
+    display_name: U+zone_5G
+    identifier_suffix: uplus-zone-5g
+  - ssid: U+wifi
+    display_name: U+wifi
+    identifier_suffix: uplus-wifi

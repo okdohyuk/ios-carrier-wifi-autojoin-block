@@ -1,0 +1,21 @@
+name: Validate profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - run: npm run build
+      - run: npm run check
+      - name: Verify working tree is clean after generation
+        run: git diff --exit-code

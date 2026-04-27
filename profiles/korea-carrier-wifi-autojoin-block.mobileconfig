@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for KTWiFi</string>
+      <key>PayloadDisplayName</key><string>Block KTWiFi Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.ktwifi</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>A6BBDA06-5AE6-5A06-0852-8787AECB7F21</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>KTWiFi</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for KT WiFi</string>
+      <key>PayloadDisplayName</key><string>Block KT WiFi Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.kt-wifi</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>D50DBA23-80B5-628F-590A-AED71E5D4645</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>KT WiFi</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for KT GiGA WiFi</string>
+      <key>PayloadDisplayName</key><string>Block KT GiGA WiFi Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.kt-giga-wifi</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>9429C1A0-7169-9B66-EAB5-A9A8B70F93BB</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>KT GiGA WiFi</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for ollehWiFi</string>
+      <key>PayloadDisplayName</key><string>Block ollehWiFi Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.ollehwifi</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>84B8C30A-4F82-F01E-24EB-7148054F2600</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>ollehWiFi</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for T wifi zone</string>
+      <key>PayloadDisplayName</key><string>Block T wifi zone Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.t-wifi-zone</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>1D97A2EA-64ED-3077-C318-DC3320907997</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>T wifi zone</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for T wifi zone_secure</string>
+      <key>PayloadDisplayName</key><string>Block T wifi zone_secure Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.t-wifi-zone-secure</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>422A81A7-BB14-C86A-F9F3-6CCEF1485020</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>T wifi zone_secure</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for U+zone</string>
+      <key>PayloadDisplayName</key><string>Block U+zone Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.uplus-zone</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>F30FC0E4-6DE4-ACAC-36AB-EDC10AEEBA2F</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>U+zone</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for U+zone_5G</string>
+      <key>PayloadDisplayName</key><string>Block U+zone_5G Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.uplus-zone-5g</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>C1AF1869-AE8F-245B-44B2-8B1B629D7FF4</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>U+zone_5G</string>
+    </dict>
+    <dict>
+      <key>AutoJoin</key><false/>
+      <key>EncryptionType</key><string>Any</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>PayloadDescription</key><string>Disable auto-join for U+wifi</string>
+      <key>PayloadDisplayName</key><string>Block U+wifi Auto-Join</string>
+      <key>PayloadIdentifier</key><string>ai.openclaw.wifi.korean-carrier-autojoin-block.uplus-wifi</string>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key><string>F0E19C42-D26C-8B70-2CC7-A429F1ECD67A</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>SSID_STR</key><string>U+wifi</string>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>Disables auto-join for common Korean carrier-managed Wi-Fi SSIDs on iPhone.</string>
+  <key>PayloadDisplayName</key>
+  <string>Korean Carrier Wi-Fi Auto-Join Block</string>
+  <key>PayloadIdentifier</key>
+  <string>ai.openclaw.wifi.korean-carrier-autojoin-block</string>
+  <key>PayloadOrganization</key>
+  <string>OpenClaw</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>F0B3B594-2A59-734E-AB5B-6DB3518A034B</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

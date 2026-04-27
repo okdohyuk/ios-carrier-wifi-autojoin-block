@@ -1,0 +1,32 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+no-changes-template: '- No user-facing changes in this draft yet.'
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - enhancement
+      - ssid
+  patch:
+    labels:
+      - bug
+      - documentation
+  default: patch
+categories:
+  - title: '🚀 Features'
+    labels:
+      - enhancement
+      - ssid
+  - title: '🐛 Fixes'
+    labels:
+      - bug
+  - title: '📝 Docs'
+    labels:
+      - documentation
+template: |
+  ## Changes
+
+  $CHANGES

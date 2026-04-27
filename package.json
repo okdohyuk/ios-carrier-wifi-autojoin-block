@@ -1,0 +1,15 @@
+{
+  "name": "ios-carrier-wifi-autojoin-block",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Apple configuration profile generator for blocking auto-join on Korean carrier-managed Wi-Fi SSIDs.",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.8.1"
+  },
+  "scripts": {
+    "build": "node scripts/build-mobileconfig.mjs",
+    "check": "node scripts/check-mobileconfig.mjs",
+    "release:prepare": "npm run build && npm run check"
+  }
+}
